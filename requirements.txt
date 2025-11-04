@@ -1,0 +1,9 @@
+flask>=2.0.0
+pillow>=8.0.0
+requests>=2.25.0
+transformers>=4.10.0
+# 请先单独安装torch和torchvision：
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118  # 对于支持CUDA的系统
+# 或 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu  # 对于CPU版本
+# numpy>=1.20.0
+flask_cors>=3.0.0
